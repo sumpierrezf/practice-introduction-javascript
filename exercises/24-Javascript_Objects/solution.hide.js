@@ -1,10 +1,10 @@
 var person = {
-    name: "John",                //String
+    name: "John", //String
     lastname: "Doe",
-    age: 35,                     //Number
+    age: 35, //Number
     gender: "male",
     lucky_numbers: [7, 11, 13, 17], //Array
-    significant_other: person2   //Object, yes the same variable/object defined after
+    significant_other: person2 //Object, yes the same variable/object defined after
 };
 
 var person2 = {
@@ -27,7 +27,7 @@ var person3 = {
 
 var family = {
     lastname: "Doe",
-    members: [person, person2, person3]   //Array of objects, don't forget to add Jimmy
+    members: [person, person2, person3] //Array of objects, don't forget to add Jimmy
 };
 
 
@@ -49,4 +49,4 @@ person.lucky_numbers[3] = 33;
 
 
 //Do not make changes below:
-console.log(addAllFamilyLuckyNumbers(family.members)); 
+console.log(addAllFamilyLuckyNumbers(family.members));
